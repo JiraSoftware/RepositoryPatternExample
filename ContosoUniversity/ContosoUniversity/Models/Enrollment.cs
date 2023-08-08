@@ -12,12 +12,12 @@ namespace ContosoUniversity.Models
 
     public class Enrollment
     {
-        public int EnrollmentId { get; set; }
-        public int CourseId { get; set; }
-        public int StudentId { get; set; }
-        public Grade? Grade { get; set; }
+        public int EnrollmentId { get; set; } //primary key
+        public int CourseId { get; set;  //one to one
+        public int StudentId { get; set; } //one to one
+        public Grade? Grade { get; set; } //nullable
 
-        public virtual Course Course { get; set;}
-        public virtual Student Student { get; set; }
+        public virtual Course Course { get; set;} //one to one
+        public virtual Student Student { get; set; } //one to one
     }
 }
