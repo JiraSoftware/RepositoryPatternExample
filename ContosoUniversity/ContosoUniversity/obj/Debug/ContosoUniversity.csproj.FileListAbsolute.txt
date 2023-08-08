@@ -77,3 +77,7 @@ C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\obj
 C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
 C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\.NetProjects\RepositoryPatternExample\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
