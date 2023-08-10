@@ -47,7 +47,7 @@ namespace ContosoUniversity.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EnrollmentDate")] Student student)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EnrollmentDate,EmailAddress")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace ContosoUniversity.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EnrollmentDate")] Student student)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EnrollmentDate,EmailAddress")] Student student)
         {
             if (ModelState.IsValid)
             {
