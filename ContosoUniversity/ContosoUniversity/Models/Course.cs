@@ -12,7 +12,6 @@ namespace ContosoUniversity.Models
         public int CourseId { get; set; } //primary key
         public string Title { get; set; }
         public int Credits { get; set; }
-
         public virtual ICollection<Enrollment> Enrollments { get; set; } //one to many
 
     }
